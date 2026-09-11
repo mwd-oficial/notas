@@ -1,0 +1,4 @@
+[
+  { "usuario": "professor1", "senha": "prof123",  "perfil": "professor", "nome_aluno": null },
+  { "usuario": "joao.silva", "senha": "aluno123", "perfil": "aluno",     "nome_aluno": "João Silva" }
+]
