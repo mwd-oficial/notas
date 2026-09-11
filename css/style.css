@@ -1,0 +1,79 @@
+/* style.css - visual simples, limpo e responsivo */
+* { box-sizing: border-box; }
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f2f4f8;
+}
+
+.card {
+    background: #fff;
+    width: 340px;
+    padding: 32px;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+}
+
+.card-larga { width: 520px; }
+
+h1 { margin: 0 0 4px; font-size: 22px; color: #1f2937; }
+
+.subtitulo { color: #6b7280; margin-bottom: 20px; font-size: 14px; }
+
+.topo { display: flex; justify-content: space-between; align-items: center; }
+
+label { display: block; margin: 12px 0 4px; font-size: 13px; color: #374151; }
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+button {
+    margin-top: 18px;
+    width: 100%;
+    padding: 10px;
+    background: #2563eb;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover { background: #1d4ed8; }
+
+.form-linha {
+    display: flex;
+    gap: 8px;
+    align-items: flex-start;
+    margin: 16px 0 20px;
+}
+.form-linha input { width: auto; flex: 1; }
+.form-linha button { margin-top: 0; width: auto; padding: 10px 16px; }
+
+table { width: 100%; border-collapse: collapse; margin-top: 8px; }
+th, td { text-align: left; padding: 8px; border-bottom: 1px solid #e5e7eb; font-size: 14px; }
+th { color: #6b7280; font-weight: 600; }
+
+.erro { color: #dc2626; font-size: 13px; margin-bottom: 8px; }
+.aviso { color: #059669; font-size: 13px; margin-bottom: 8px; }
+
+.link-sair { font-size: 13px; color: #2563eb; text-decoration: none; }
+.link-sair:hover { text-decoration: underline; }
+
+.nota-final {
+    font-size: 48px;
+    font-weight: bold;
+    color: #2563eb;
+    text-align: center;
+    padding: 24px 0;
+}
